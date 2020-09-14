@@ -38,6 +38,9 @@ namespace ProductApps
                 totalChargeTextBlock.Text = Convert.ToString(totalcharge);
                 Decimal wrapcharge = totalcharge + 5;
                 totalWrapTextBlock.Text = Convert.ToString(wrapcharge);
+                Decimal a = Convert.ToDecimal(1.1);
+                Decimal GST = Decimal.Multiply(wrapcharge, a);
+                GSTTextBlock.Text = Convert.ToString(GST);
             }
             catch (FormatException)
             {

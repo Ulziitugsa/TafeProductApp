@@ -6,6 +6,8 @@
         <Label Content="Product:" HorizontalAlignment="Left" Height="30" Margin="46,37,0,0" VerticalAlignment="Top" Width="61"/>
         <Label Content="Price $:" HorizontalAlignment="Left" Height="30" Margin="46,78,0,0" VerticalAlignment="Top" Width="61"/>
         <Label Content="Quantity:" HorizontalAlignment="Left" Height="30" Margin="48,113,0,0" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.371,0.498"/>
+        <Label Content="Total Charge After GST (@10%" HorizontalAlignment="Left" Height="60" Margin="246,60,0,0" VerticalAlignment="Top" Width="177"/>
+        <TextBlock x:Name="GSTTextBlock" HorizontalAlignment="Left" Height="23" Margin="425,70,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
         <Label Content="Total Payment $:" HorizontalAlignment="Left" Height="30" Margin="46,160,0,0" VerticalAlignment="Top" Width="96"/>
         <Label Content="Total Charge after adding &#xA;the delivery charge ($25)" HorizontalAlignment="Left" Height="60" Margin="46,200,0,0" VerticalAlignment="Top" Width="146"/>
         <TextBlock x:Name="totalChargeTextBlock" HorizontalAlignment="Left" Height="23" Margin="210,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="75"/>
